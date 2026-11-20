@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>062张婷</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-weight: 400;
+            color: #fff;
+            list-style-type: none;
+            text-decoration: none;
+            box-sizing: border-box;
+            font-family: "微软雅黑";
+        }
+
+        body {
+            background-image: url("./E1B326AAFBA63A4D540AF6800E9A9516.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .yijihezi {
+            margin: 60px 0 0 60px;
+        }
+
+        .yijiliebiao {
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+        }
+
+        .yijiliebiao>li {
+            position: relative;
+            width: 72px;
+            height: 220px;
+            border: 2px solid #ffc857;
+            border-radius: 10px;
+            background: rgba(34, 34, 34, 0.55);
+            transition: 0.3s;
+        }
+
+        .yijiliebiao>li>a {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 19px;
+            letter-spacing: 6px;
+        }
+
+        .yijiliebiao>li:hover {
+            background-color: rgba(187, 19, 19, 0.72);
+            border-color: #ff6b6b;
+        }
+
+        .erjihezi {
+            position: absolute;
+            left: 80px;
+            top: 0;
+            width: 170px;
+            height: 0;
+            overflow: hidden;
+            transition: all 300ms linear;
+        }
+
+        .erjiliebiao {
+            padding: 12px;
+            border: 2px solid #4ecdc4;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.88);
+        }
+
+        .erjiliebiao>li {
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .erjiliebiao a {
+            color: #222;
+            font-size: 16px;
+        }
+
+        .erjiliebiao>li:hover a {
+            color: #bb1313;
+        }
+
+        .yijiliebiao>li:hover .erjihezi {
+            height: 156px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="yijihezi">
+        <ul class="yijiliebiao">
+            <li>
+                <a href="#">山城人文景致</a>
+                <div class="erjihezi">
+                    <ul class="erjiliebiao">
+                        <li><a href="#">江岸地标风光</a></li>
+                        <li><a href="#">老巷烟火街区</a></li>
+                        <li><a href="#">巴渝民俗遗存</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">山城风味食集</a>
+                <div class="erjihezi">
+                    <ul class="erjiliebiao">
+                        <li><a href="#">经典江湖菜肴</a></li>
+                        <li><a href="#">街巷小吃点心</a></li>
+                        <li><a href="#">本土茶饮甜品</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">山城趣玩体验</a>
+                <div class="erjihezi">
+                    <ul class="erjiliebiao">
+                        <li><a href="#">江上漫游项目</a></li>
+                        <li><a href="#">山地徒步路线</a></li>
+                        <li><a href="#">夜景休闲去处</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
